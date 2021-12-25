@@ -1,0 +1,13 @@
+[
+{
+  "directory": "/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/.externalNativeBuild/cmake/debug/armeabi-v7a",
+  "command": "/Users/heeh/securityandsafetythings/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/heeh/securityandsafetythings/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/heeh/securityandsafetythings/sdk/ndk-bundle/sysroot   -isystem /Users/heeh/securityandsafetythings/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o /Users/heeh/tmp/armeabi-v7a/gmath/CMakeFiles/gmath.dir/src/gmath.c.o   -c /Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/src/main/cpp/gmath/src/gmath.c",
+  "file": "/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/src/main/cpp/gmath/src/gmath.c"
+},
+
+{
+  "directory": "/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/.externalNativeBuild/cmake/debug/armeabi-v7a",
+  "command": "/Users/heeh/securityandsafetythings/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/heeh/securityandsafetythings/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/heeh/securityandsafetythings/sdk/ndk-bundle/sysroot -Dgperf_EXPORTS  -isystem /Users/heeh/securityandsafetythings/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o /Users/heeh/tmp/armeabi-v7a/gperf/CMakeFiles/gperf.dir/src/gperf.c.o   -c /Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/src/main/cpp/gperf/src/gperf.c",
+  "file": "/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/src/main/cpp/gperf/src/gperf.c"
+}
+]

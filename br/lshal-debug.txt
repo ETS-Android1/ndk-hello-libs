@@ -1,0 +1,93 @@
+All binderized services (registered services through hwservicemanager)
+Interface                                                                       	Thread Use	Server	Clients
+android.frameworks.displayservice@1.0::IDisplayService/default                  	0/1     	1388 	1326
+android.frameworks.schedulerservice@1.0::ISchedulingPolicyService/default       	0/3     	1642 	1326
+android.frameworks.sensorservice@1.0::ISensorManager/default                    	0/3     	1642 	1326
+android.hardware.audio.effect@2.0::IEffectsFactory/default                      	0/4     	1373 	1465 1326
+android.hardware.audio@2.0::IDevicesFactory/default                             	0/4     	1373 	1465 1326
+android.hardware.biometrics.fingerprint@2.1::IBiometricsFingerprint/default     	0/1     	1482 	1326
+android.hardware.camera.provider@2.4::ICameraProvider/legacy/0                  	1/5     	1374 	1466 1326
+android.hardware.cas@1.0::IMediaCasService/default                              	0/2     	1375 	1326
+android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default                	0/3     	1376 	1744 2333 2082 1757 1872 1642 1388 1326
+android.hardware.drm@1.0::ICryptoFactory/default                                	0/2     	1377 	1326
+android.hardware.drm@1.0::IDrmFactory/default                                   	0/2     	1377 	1326
+android.hardware.gatekeeper@1.0::IGatekeeper/default                            	0/1     	1378 	1480 1326
+android.hardware.gnss@1.0::IGnss/default                                        	0/1     	1379 	1642 1326
+android.hardware.graphics.allocator@2.0::IAllocator/default                     	0/3     	1380 	1642 2244 2557 2082 1388 1326
+android.hardware.graphics.composer@2.1::IComposer/default                       	0/4     	1381 	1388 1326
+android.hardware.keymaster@3.0::IKeymasterDevice/default                        	0/1     	1332 	1469 1326
+android.hardware.media.omx@1.0::IOmx/default                                    	0/6     	1477 	1473 1326
+android.hardware.media.omx@1.0::IOmxStore/default                               	0/6     	1477 	1326
+android.hardware.power@1.0::IPower/default                                      	0/1     	1382 	1642 1326
+android.hardware.radio.deprecated@1.0::IOemHook/slot1                           	0/1     	1478 	1326
+android.hardware.radio@1.0::IRadio/slot1                                        	0/1     	1478 	1326
+android.hardware.radio@1.1::IRadio/slot1                                        	0/1     	1478 	1326
+android.hardware.sensors@1.0::ISensors/default                                  	1/2     	1383 	1642 1326
+android.hardware.soundtrigger@2.0::ISoundTriggerHw/default                      	0/4     	1373 	1465 1326
+android.hidl.allocator@1.0::IAllocator/ashmem                                   	0/1     	1372 	1473 1326
+android.hidl.base@1.0::IBase/ashmem                                             	0/1     	1372 	1473 1326
+android.hidl.base@1.0::IBase/default                                            	0/3     	1642 	1326
+android.hidl.base@1.0::IBase/legacy/0                                           	1/5     	1374 	1466 1326
+android.hidl.base@1.0::IBase/slot1                                              	0/1     	1478 	1326
+android.hidl.manager@1.0::IServiceManager/default                               	1/1     	1326 	3924 1642
+android.hidl.manager@1.1::IServiceManager/default                               	1/1     	1326 	3924 1642
+android.hidl.token@1.0::ITokenManager/default                                   	1/1     	1326 	
+android.system.net.netd@1.0::INetd/default                                      	0/1     	1474 	1326
+android.system.wifi.keystore@1.0::IKeystore/default                             	0/1     	1469 	1326
+
+All interfaces that getService() has ever return as a passthrough interface;
+PIDs / processes shown below might be inaccurate because the process
+might have relinquished the interface or might have died.
+The Server / Server CMD column can be ignored.
+The Clients / Clients CMD column shows all process that have ever dlopen'ed 
+the library and successfully fetched the passthrough implementation.
+Interface                                                                       	Thread Use	Server	Clients
+android.hardware.audio.effect@2.0::IEffectsFactory/default                      	N/A     	1373 	1373
+android.hardware.audio@2.0::IDevicesFactory/default                             	N/A     	1373 	1373
+android.hardware.camera.provider@2.4::ICameraProvider/legacy/0                  	N/A     	1374 	1374
+android.hardware.drm@1.0::ICryptoFactory/default                                	N/A     	1377 	1377
+android.hardware.drm@1.0::IDrmFactory/default                                   	N/A     	1377 	1377
+android.hardware.gatekeeper@1.0::IGatekeeper/default                            	N/A     	1378 	1378
+android.hardware.gnss@1.0::IGnss/default                                        	N/A     	1379 	1379
+android.hardware.graphics.allocator@2.0::IAllocator/default                     	N/A     	1380 	1380
+android.hardware.graphics.composer@2.1::IComposer/default                       	N/A     	1381 	1381
+android.hardware.graphics.mapper@2.0::IMapper/default                           	N/A     	N/A  	1374 1381 1388 1466 1642 1744 1757 1872 2082 2244 2333 2557
+android.hardware.keymaster@3.0::IKeymasterDevice/default                        	N/A     	1332 	1332
+android.hardware.power@1.0::IPower/default                                      	N/A     	1382 	1382
+android.hardware.sensors@1.0::ISensors/default                                  	N/A     	1383 	1383
+android.hardware.soundtrigger@2.0::ISoundTriggerHw/default                      	N/A     	1373 	1373
+android.hidl.memory@1.0::IMapper/ashmem                                         	N/A     	N/A  	1473 1477 1642 1757
+
+All available passthrough implementations (all -impl.so files)
+Interface                                                                       	Thread Use	Server	Clients
+android.hardware.audio.effect@2.0::I*/* (/vendor/lib/hw/)                       	N/A     	N/A  	1373
+android.hardware.audio.effect@2.0::I*/* (/vendor/lib64/hw/)                     	N/A     	N/A  	
+android.hardware.audio@2.0::I*/* (/vendor/lib/hw/)                              	N/A     	N/A  	1373
+android.hardware.audio@2.0::I*/* (/vendor/lib64/hw/)                            	N/A     	N/A  	
+android.hardware.broadcastradio@1.0::I*/* (/vendor/lib/hw/)                     	N/A     	N/A  	
+android.hardware.broadcastradio@1.0::I*/* (/vendor/lib64/hw/)                   	N/A     	N/A  	
+android.hardware.camera.provider@2.4::I*/* (/vendor/lib/hw/)                    	N/A     	N/A  	1374
+android.hardware.camera.provider@2.4::I*/* (/vendor/lib64/hw/)                  	N/A     	N/A  	
+android.hardware.drm@1.0::I*/* (/vendor/lib/hw/)                                	N/A     	N/A  	1377
+android.hardware.gatekeeper@1.0::I*/* (/vendor/lib/hw/)                         	N/A     	N/A  	
+android.hardware.gatekeeper@1.0::I*/* (/vendor/lib64/hw/)                       	N/A     	N/A  	1378
+android.hardware.gnss@1.0::I*/* (/vendor/lib/hw/)                               	N/A     	N/A  	
+android.hardware.gnss@1.0::I*/* (/vendor/lib64/hw/)                             	N/A     	N/A  	1379
+android.hardware.graphics.allocator@2.0::I*/* (/vendor/lib/hw/)                 	N/A     	N/A  	
+android.hardware.graphics.allocator@2.0::I*/* (/vendor/lib64/hw/)               	N/A     	N/A  	1380
+android.hardware.graphics.composer@2.1::I*/* (/vendor/lib/hw/)                  	N/A     	N/A  	
+android.hardware.graphics.composer@2.1::I*/* (/vendor/lib64/hw/)                	N/A     	N/A  	1381
+android.hardware.graphics.mapper@2.0::I*/* (/vendor/lib/hw/)                    	N/A     	N/A  	1374 1464 1466
+android.hardware.graphics.mapper@2.0::I*/* (/vendor/lib64/hw/)                  	N/A     	N/A  	1381 1388 1463 1642 1744 1757 1872 2012 2017 2040 2045 2068 2082 2098 2107 2128 2142 2156 2171 2187 2203 2217 2230 2244 2298 2333 2372 2388 2416 2436 2462 2508 2557 2607 2626 2661 2749 3803
+android.hardware.keymaster@3.0::I*/* (/vendor/lib/hw/)                          	N/A     	N/A  	
+android.hardware.keymaster@3.0::I*/* (/vendor/lib64/hw/)                        	N/A     	N/A  	1332
+android.hardware.power@1.0::I*/* (/vendor/lib/hw/)                              	N/A     	N/A  	
+android.hardware.power@1.0::I*/* (/vendor/lib64/hw/)                            	N/A     	N/A  	1382
+android.hardware.sensors@1.0::I*/* (/vendor/lib/hw/)                            	N/A     	N/A  	
+android.hardware.sensors@1.0::I*/* (/vendor/lib64/hw/)                          	N/A     	N/A  	1383
+android.hardware.soundtrigger@2.0::I*/* (/vendor/lib/hw/)                       	N/A     	N/A  	1373
+android.hidl.memory@1.0::I*/* (/system/lib/hw/)                                 	N/A     	N/A  	1473 1477
+android.hidl.memory@1.0::I*/* (/system/lib64/hw/)                               	N/A     	N/A  	1642 1757
+securityandsafetythings.hardware.motorcontrol@1.0::I*/* (/vendor/lib/hw/)       	N/A     	N/A  	
+securityandsafetythings.hardware.motorcontrol@1.0::I*/* (/vendor/lib64/hw/)     	N/A     	N/A  	
+

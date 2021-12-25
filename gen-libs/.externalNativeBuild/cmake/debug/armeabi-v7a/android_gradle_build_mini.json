@@ -1,0 +1,26 @@
+{
+  "buildFiles": [
+    "/Users/heeh/securityandsafetythings/sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/src/main/cpp/gperf/CMakeLists.txt",
+    "/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/src/main/cpp/gmath/CMakeLists.txt",
+    "/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/src/main/cpp/CMakeLists.txt",
+    "/Users/heeh/securityandsafetythings/sdk/ndk-bundle/build/cmake/android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/heeh/securityandsafetythings/sdk/cmake/3.10.2/bin/cmake --build \"/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/.externalNativeBuild/cmake/debug/armeabi-v7a\" --target clean"
+  ],
+  "libraries": {
+    "gperf-Debug-armeabi-v7a": {
+      "artifactName": "gperf",
+      "buildCommand": "/Users/heeh/securityandsafetythings/sdk/cmake/3.10.2/bin/cmake --build \"/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/.externalNativeBuild/cmake/debug/armeabi-v7a\" --target gperf",
+      "abi": "armeabi-v7a",
+      "output": "/Users/heeh/Projects/ndk-samples/hello-libs/distribution/gperf/lib/armeabi-v7a/libgperf.so"
+    },
+    "gmath-Debug-armeabi-v7a": {
+      "artifactName": "gmath",
+      "buildCommand": "/Users/heeh/securityandsafetythings/sdk/cmake/3.10.2/bin/cmake --build \"/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/.externalNativeBuild/cmake/debug/armeabi-v7a\" --target gmath",
+      "abi": "armeabi-v7a",
+      "output": "/Users/heeh/Projects/ndk-samples/hello-libs/distribution/gmath/lib/armeabi-v7a/libgmath.a"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+Executable : /Users/heeh/securityandsafetythings/sdk/cmake/3.10.2/bin/cmake
+arguments : 
+--build
+/Users/heeh/Projects/ndk-samples/hello-libs/app/.externalNativeBuild/cmake/debug/armeabi-v7a
+--target
+hello-libs
+jvmArgs : 
+

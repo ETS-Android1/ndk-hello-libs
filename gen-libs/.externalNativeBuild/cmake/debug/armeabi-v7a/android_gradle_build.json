@@ -1,0 +1,60 @@
+{
+  "stringTable": {
+    "0": "/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/.externalNativeBuild/cmake/debug/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/heeh/securityandsafetythings/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/heeh/securityandsafetythings/sdk/ndk-bundle/sysroot -isystem /Users/heeh/securityandsafetythings/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC",
+    "2": "--target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/heeh/securityandsafetythings/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/heeh/securityandsafetythings/sdk/ndk-bundle/sysroot -Dgperf_EXPORTS -isystem /Users/heeh/securityandsafetythings/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/Users/heeh/securityandsafetythings/sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/src/main/cpp/gperf/CMakeLists.txt",
+    "/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/src/main/cpp/gmath/CMakeLists.txt",
+    "/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/src/main/cpp/CMakeLists.txt",
+    "/Users/heeh/securityandsafetythings/sdk/ndk-bundle/build/cmake/android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/heeh/securityandsafetythings/sdk/cmake/3.10.2/bin/cmake --build \"/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/.externalNativeBuild/cmake/debug/armeabi-v7a\" --target clean"
+  ],
+  "libraries": {
+    "gperf-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/heeh/securityandsafetythings/sdk/cmake/3.10.2/bin/cmake --build \"/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/.externalNativeBuild/cmake/debug/armeabi-v7a\" --target gperf",
+      "buildType": "debug",
+      "toolchain": "1642654924",
+      "abi": "armeabi-v7a",
+      "artifactName": "gperf",
+      "files": [
+        {
+          "src": "/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/src/main/cpp/gperf/src/gperf.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/heeh/Projects/ndk-samples/hello-libs/distribution/gperf/lib/armeabi-v7a/libgperf.so"
+    },
+    "gmath-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/heeh/securityandsafetythings/sdk/cmake/3.10.2/bin/cmake --build \"/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/.externalNativeBuild/cmake/debug/armeabi-v7a\" --target gmath",
+      "buildType": "debug",
+      "toolchain": "1642654924",
+      "abi": "armeabi-v7a",
+      "artifactName": "gmath",
+      "files": [
+        {
+          "src": "/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/src/main/cpp/gmath/src/gmath.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/heeh/Projects/ndk-samples/hello-libs/distribution/gmath/lib/armeabi-v7a/libgmath.a"
+    }
+  },
+  "toolchains": {
+    "1642654924": {
+      "cCompilerExecutable": "/Users/heeh/securityandsafetythings/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

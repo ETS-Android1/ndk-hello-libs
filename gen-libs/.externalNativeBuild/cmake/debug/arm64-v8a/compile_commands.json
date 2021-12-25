@@ -1,0 +1,13 @@
+[
+{
+  "directory": "/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "command": "/Users/heeh/securityandsafetythings/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/heeh/securityandsafetythings/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/heeh/securityandsafetythings/sdk/ndk-bundle/sysroot   -isystem /Users/heeh/securityandsafetythings/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o /Users/heeh/tmp/arm64-v8a/gmath/CMakeFiles/gmath.dir/src/gmath.c.o   -c /Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/src/main/cpp/gmath/src/gmath.c",
+  "file": "/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/src/main/cpp/gmath/src/gmath.c"
+},
+
+{
+  "directory": "/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "command": "/Users/heeh/securityandsafetythings/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/heeh/securityandsafetythings/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/heeh/securityandsafetythings/sdk/ndk-bundle/sysroot -Dgperf_EXPORTS  -isystem /Users/heeh/securityandsafetythings/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o /Users/heeh/tmp/arm64-v8a/gperf/CMakeFiles/gperf.dir/src/gperf.c.o   -c /Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/src/main/cpp/gperf/src/gperf.c",
+  "file": "/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/src/main/cpp/gperf/src/gperf.c"
+}
+]

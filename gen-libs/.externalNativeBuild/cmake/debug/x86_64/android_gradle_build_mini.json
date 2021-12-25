@@ -1,0 +1,26 @@
+{
+  "buildFiles": [
+    "/Users/heeh/securityandsafetythings/sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/src/main/cpp/gperf/CMakeLists.txt",
+    "/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/src/main/cpp/gmath/CMakeLists.txt",
+    "/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/src/main/cpp/CMakeLists.txt",
+    "/Users/heeh/securityandsafetythings/sdk/ndk-bundle/build/cmake/android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/heeh/securityandsafetythings/sdk/cmake/3.10.2/bin/cmake --build \"/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/.externalNativeBuild/cmake/debug/x86_64\" --target clean"
+  ],
+  "libraries": {
+    "gmath-Debug-x86_64": {
+      "artifactName": "gmath",
+      "buildCommand": "/Users/heeh/securityandsafetythings/sdk/cmake/3.10.2/bin/cmake --build \"/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/.externalNativeBuild/cmake/debug/x86_64\" --target gmath",
+      "abi": "x86_64",
+      "output": "/Users/heeh/Projects/ndk-samples/hello-libs/distribution/gmath/lib/x86_64/libgmath.a"
+    },
+    "gperf-Debug-x86_64": {
+      "artifactName": "gperf",
+      "buildCommand": "/Users/heeh/securityandsafetythings/sdk/cmake/3.10.2/bin/cmake --build \"/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/.externalNativeBuild/cmake/debug/x86_64\" --target gperf",
+      "abi": "x86_64",
+      "output": "/Users/heeh/Projects/ndk-samples/hello-libs/distribution/gperf/lib/x86_64/libgperf.so"
+    }
+  }
+}

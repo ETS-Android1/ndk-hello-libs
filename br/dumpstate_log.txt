@@ -1,0 +1,133 @@
+can't find the pid
+Failed to find: /data/misc/anrd/
+Skipping systrace because '/sys/kernel/debug/tracing/tracing_on' content is '0'
+/data/misc/raft does not exist or is not a directory
+Adding dir /cache/recovery (recursive: 1)
+Duration of '/cache/recovery': 0.000s
+Adding dir /data/misc/recovery (recursive: 1)
+Duration of '/data/misc/recovery': 0.001s
+Adding dir /data/misc/logd (recursive: 0)
+Duration of '/data/misc/logd': 0.000s
+Adding dir /data/misc/profiles/cur (recursive: 1)
+Duration of '/data/misc/profiles/cur': 0.017s
+Adding dir /data/misc/profiles/ref (recursive: 1)
+Duration of '/data/misc/profiles/ref': 0.001s
+MOUNT INFO: 38 entries added to zip file
+Duration of 'MOUNT INFO': 0.011s
+warning: could not read usage for 1
+warning: could not read usage for 1039
+warning: could not read usage for 1324
+warning: could not read usage for 1325
+warning: could not read usage for 1326
+warning: could not read usage for 1328
+warning: could not read usage for 1332
+warning: could not read usage for 1333
+warning: could not read usage for 1372
+warning: could not read usage for 1373
+warning: could not read usage for 1374
+warning: could not read usage for 1375
+warning: could not read usage for 1376
+warning: could not read usage for 1377
+warning: could not read usage for 1378
+warning: could not read usage for 1379
+warning: could not read usage for 1380
+warning: could not read usage for 1381
+warning: could not read usage for 1382
+warning: could not read usage for 1383
+warning: could not read usage for 1384
+warning: could not read usage for 1386
+warning: could not read usage for 1387
+warning: could not read usage for 1388
+warning: could not read usage for 1389
+warning: could not read usage for 1401
+warning: could not read usage for 1402
+warning: could not read usage for 1403
+warning: could not read usage for 1410
+warning: could not read usage for 1463
+warning: could not read usage for 1464
+warning: could not read usage for 1465
+warning: could not read usage for 1466
+warning: could not read usage for 1467
+warning: could not read usage for 1468
+warning: could not read usage for 1469
+warning: could not read usage for 1470
+warning: could not read usage for 1471
+warning: could not read usage for 1472
+warning: could not read usage for 1473
+warning: could not read usage for 1474
+warning: could not read usage for 1475
+warning: could not read usage for 1476
+warning: could not read usage for 1477
+warning: could not read usage for 1478
+warning: could not read usage for 1480
+warning: could not read usage for 1481
+warning: could not read usage for 1482
+warning: could not read usage for 1483
+warning: could not read usage for 1485
+warning: could not read usage for 1487
+warning: could not read usage for 1491
+warning: could not read usage for 1494
+warning: could not read usage for 1495
+warning: could not read usage for 1499
+warning: could not read usage for 1642
+warning: could not read usage for 1744
+warning: could not read usage for 1757
+warning: could not read usage for 1765
+warning: could not read usage for 1815
+warning: could not read usage for 1872
+warning: could not read usage for 2012
+warning: could not read usage for 2017
+warning: could not read usage for 2040
+warning: could not read usage for 2045
+warning: could not read usage for 2068
+warning: could not read usage for 2082
+warning: could not read usage for 2098
+warning: could not read usage for 2107
+warning: could not read usage for 2128
+warning: could not read usage for 2142
+warning: could not read usage for 2156
+warning: could not read usage for 2171
+warning: could not read usage for 2187
+warning: could not read usage for 2203
+warning: could not read usage for 2217
+warning: could not read usage for 2230
+warning: could not read usage for 2244
+warning: could not read usage for 2298
+warning: could not read usage for 2333
+warning: could not read usage for 2372
+warning: could not read usage for 2388
+warning: could not read usage for 2416
+warning: could not read usage for 2436
+warning: could not read usage for 2462
+warning: could not read usage for 2508
+warning: could not read usage for 2557
+warning: could not read usage for 2607
+warning: could not read usage for 2626
+warning: could not read usage for 2661
+warning: could not read usage for 2749
+warning: could not read usage for 3803
+warning: could not read usage for 3922
+warning: could not read usage for 3924
+Error getting map memory usage of map /init in process 1.
+*** command '/system/xbin/su root librank' failed: exit code 1
+Skipping 'lsmod' because /proc/modules does not exist
+Adding dir /data/misc/bluetooth/logs (recursive: 1)
+Duration of '/data/misc/bluetooth/logs': 0.000s
+taking late screenshot
+drop_root_user(): already running as Shell
+Error opening file:  (No such file or directory)
+*** command '/system/bin/screencap -p ' failed: exit code 1
+Failed to take screenshot on 
+AddAnrTraceDir(): dump_traces_file=/data/anr/dumptrace_HMPgKQ, anr_traces_dir=/data/anr
+Dumping current ANR traces (/data/anr/dumptrace_HMPgKQ) to the main bugreport entry
+Error unlinking temporary trace path /data/anr/dumptrace_HMPgKQ: Permission denied
+execvp on command 'parse_radio_log /proc/last_radio_log' failed (error: Permission denied)
+*** command 'parse_radio_log /proc/last_radio_log' failed: exit code 1
+No IDumpstateDevice implementation
+Can't find service: android.service.gatekeeper.IGateKeeperService
+Error dumping service info: (Unknown error -2147483646) installd
+Error dumping service info: (Unknown error -2147483646) storaged
+Adding main entry (bugreport-emu-1.5.1_v7-2021-12-24-19-47-54.txt) from /data/user_de/0/com.android.shell/files/bugreports/bugreport-emu-1.5.1_v7-2021-12-24-19-47-54.tmp to .zip bugreport
+dumpstate id 1 finished around 2021/12/24 19:48:17 (23 s)
+Adding zip text entry main_entry.txt
+dumpstate_log.txt entry on zip file logged up to here

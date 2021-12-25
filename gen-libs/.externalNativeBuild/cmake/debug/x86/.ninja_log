@@ -1,0 +1,5 @@
+# ninja log v5
+0	60	1640376033	/Users/heeh/tmp/x86/gperf/CMakeFiles/gperf.dir/src/gperf.c.o	569d37de2eb144b8
+60	153	1640376033	/Users/heeh/Projects/ndk-samples/hello-libs/distribution/gperf/lib/x86/libgperf.so	785e84bd0b55cdc8
+0	37	1640376034	/Users/heeh/tmp/x86/gmath/CMakeFiles/gmath.dir/src/gmath.c.o	a76601b2b2a20e26
+38	658	1640376034	/Users/heeh/Projects/ndk-samples/hello-libs/distribution/gmath/lib/x86/libgmath.a	e00d25d8d47ac5e0

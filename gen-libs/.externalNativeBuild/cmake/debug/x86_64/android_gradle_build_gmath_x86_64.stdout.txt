@@ -1,0 +1,2 @@
+[1/2] Building C object /Users/heeh/tmp/x86_64/gmath/CMakeFiles/gmath.dir/src/gmath.c.o
+[2/2] Linking C static library /Users/heeh/Projects/ndk-samples/hello-libs/distribution/gmath/lib/x86_64/libgmath.a

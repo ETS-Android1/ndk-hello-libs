@@ -1,0 +1,60 @@
+{
+  "stringTable": {
+    "0": "/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/.externalNativeBuild/cmake/debug/x86_64",
+    "1": "--target=x86_64-none-linux-android21 --gcc-toolchain=/Users/heeh/securityandsafetythings/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/heeh/securityandsafetythings/sdk/ndk-bundle/sysroot -isystem /Users/heeh/securityandsafetythings/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC",
+    "2": "--target=x86_64-none-linux-android21 --gcc-toolchain=/Users/heeh/securityandsafetythings/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/heeh/securityandsafetythings/sdk/ndk-bundle/sysroot -Dgperf_EXPORTS -isystem /Users/heeh/securityandsafetythings/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/Users/heeh/securityandsafetythings/sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/src/main/cpp/gperf/CMakeLists.txt",
+    "/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/src/main/cpp/gmath/CMakeLists.txt",
+    "/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/src/main/cpp/CMakeLists.txt",
+    "/Users/heeh/securityandsafetythings/sdk/ndk-bundle/build/cmake/android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/heeh/securityandsafetythings/sdk/cmake/3.10.2/bin/cmake --build \"/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/.externalNativeBuild/cmake/debug/x86_64\" --target clean"
+  ],
+  "libraries": {
+    "gmath-Debug-x86_64": {
+      "buildCommand": "/Users/heeh/securityandsafetythings/sdk/cmake/3.10.2/bin/cmake --build \"/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/.externalNativeBuild/cmake/debug/x86_64\" --target gmath",
+      "buildType": "debug",
+      "toolchain": "1642654924",
+      "abi": "x86_64",
+      "artifactName": "gmath",
+      "files": [
+        {
+          "src": "/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/src/main/cpp/gmath/src/gmath.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/heeh/Projects/ndk-samples/hello-libs/distribution/gmath/lib/x86_64/libgmath.a"
+    },
+    "gperf-Debug-x86_64": {
+      "buildCommand": "/Users/heeh/securityandsafetythings/sdk/cmake/3.10.2/bin/cmake --build \"/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/.externalNativeBuild/cmake/debug/x86_64\" --target gperf",
+      "buildType": "debug",
+      "toolchain": "1642654924",
+      "abi": "x86_64",
+      "artifactName": "gperf",
+      "files": [
+        {
+          "src": "/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/src/main/cpp/gperf/src/gperf.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/heeh/Projects/ndk-samples/hello-libs/distribution/gperf/lib/x86_64/libgperf.so"
+    }
+  },
+  "toolchains": {
+    "1642654924": {
+      "cCompilerExecutable": "/Users/heeh/securityandsafetythings/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

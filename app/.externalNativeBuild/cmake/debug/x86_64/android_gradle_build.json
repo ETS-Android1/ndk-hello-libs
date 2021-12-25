@@ -1,0 +1,41 @@
+{
+  "stringTable": {
+    "0": "/Users/heeh/Projects/ndk-samples/hello-libs/app/.externalNativeBuild/cmake/debug/x86_64",
+    "1": "--target=x86_64-none-linux-android21 --gcc-toolchain=/Users/heeh/securityandsafetythings/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/heeh/securityandsafetythings/sdk/ndk-bundle/sysroot -Dhello_libs_EXPORTS -I/Users/heeh/Projects/ndk-samples/hello-libs/app/src/main/cpp/../../../../distribution/gmath/include -I/Users/heeh/Projects/ndk-samples/hello-libs/app/src/main/cpp/../../../../distribution/gperf/include -isystem /Users/heeh/securityandsafetythings/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/heeh/securityandsafetythings/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -isystem /Users/heeh/securityandsafetythings/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=gnu++11 -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/Users/heeh/securityandsafetythings/sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/heeh/Projects/ndk-samples/hello-libs/app/src/main/cpp/CMakeLists.txt",
+    "/Users/heeh/securityandsafetythings/sdk/ndk-bundle/build/cmake/android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/heeh/securityandsafetythings/sdk/cmake/3.10.2/bin/cmake --build \"/Users/heeh/Projects/ndk-samples/hello-libs/app/.externalNativeBuild/cmake/debug/x86_64\" --target clean"
+  ],
+  "libraries": {
+    "hello-libs-Debug-x86_64": {
+      "buildCommand": "/Users/heeh/securityandsafetythings/sdk/cmake/3.10.2/bin/cmake --build \"/Users/heeh/Projects/ndk-samples/hello-libs/app/.externalNativeBuild/cmake/debug/x86_64\" --target hello-libs",
+      "buildType": "debug",
+      "toolchain": "3770480244",
+      "abi": "x86_64",
+      "artifactName": "hello-libs",
+      "files": [
+        {
+          "src": "/Users/heeh/Projects/ndk-samples/hello-libs/app/src/main/cpp/hello-libs.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/heeh/Projects/ndk-samples/hello-libs/app/build/intermediates/cmake/debug/obj/x86_64/libhello-libs.so"
+    }
+  },
+  "toolchains": {
+    "3770480244": {
+      "cppCompilerExecutable": "/Users/heeh/securityandsafetythings/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

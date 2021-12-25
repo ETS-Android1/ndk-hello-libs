@@ -1,0 +1,5 @@
+# ninja log v5
+0	41	1640376035	/Users/heeh/tmp/armeabi-v7a/gmath/CMakeFiles/gmath.dir/src/gmath.c.o	f4a74861ae1e5b28
+41	644	1640376036	/Users/heeh/Projects/ndk-samples/hello-libs/distribution/gmath/lib/armeabi-v7a/libgmath.a	e8ecd2d2bd64da1c
+0	47	1640376036	/Users/heeh/tmp/armeabi-v7a/gperf/CMakeFiles/gperf.dir/src/gperf.c.o	53db3816f3764427
+47	143	1640376036	/Users/heeh/Projects/ndk-samples/hello-libs/distribution/gperf/lib/armeabi-v7a/libgperf.so	558d2484f503ed7b

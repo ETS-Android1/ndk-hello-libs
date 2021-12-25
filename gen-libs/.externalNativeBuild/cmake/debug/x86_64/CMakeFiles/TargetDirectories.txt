@@ -1,0 +1,8 @@
+/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir
+/Users/heeh/Projects/ndk-samples/hello-libs/gen-libs/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
+/Users/heeh/tmp/x86_64/gmath/CMakeFiles/rebuild_cache.dir
+/Users/heeh/tmp/x86_64/gmath/CMakeFiles/edit_cache.dir
+/Users/heeh/tmp/x86_64/gmath/CMakeFiles/gmath.dir
+/Users/heeh/tmp/x86_64/gperf/CMakeFiles/rebuild_cache.dir
+/Users/heeh/tmp/x86_64/gperf/CMakeFiles/edit_cache.dir
+/Users/heeh/tmp/x86_64/gperf/CMakeFiles/gperf.dir

@@ -1,0 +1,2 @@
+[1/2] Building C object /Users/heeh/tmp/armeabi-v7a/gperf/CMakeFiles/gperf.dir/src/gperf.c.o
+[2/2] Linking C shared library /Users/heeh/Projects/ndk-samples/hello-libs/distribution/gperf/lib/armeabi-v7a/libgperf.so
